@@ -1,0 +1,5 @@
+c:\users\dotnet-10\documents\visual studio 2015\Projects\Zabawki\Zabawki\bin\Debug\Zabawki.exe.config
+c:\users\dotnet-10\documents\visual studio 2015\Projects\Zabawki\Zabawki\obj\Debug\Zabawki.csprojResolveAssemblyReference.cache
+c:\users\dotnet-10\documents\visual studio 2015\Projects\Zabawki\Zabawki\obj\Debug\Zabawki.Form1.resources
+c:\users\dotnet-10\documents\visual studio 2015\Projects\Zabawki\Zabawki\obj\Debug\Zabawki.Properties.Resources.resources
+c:\users\dotnet-10\documents\visual studio 2015\Projects\Zabawki\Zabawki\obj\Debug\Zabawki.csproj.GenerateResource.Cache
