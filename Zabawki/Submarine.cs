@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zabawki
 {
-    public class Submarine : IDepth
+    public class Submarine : IDepth 
     {
 
         private int depth = 150;
@@ -27,11 +27,6 @@ namespace Zabawki
             return nameOf;
         }
 
-        public int getDepth()
-        {
-            return depth;
-        }
-
         public int Deeper()
         {
             return depth += 10;
@@ -48,5 +43,9 @@ namespace Zabawki
             return depth;
         }
 
+        public int getDepth()
+        {
+            return depth;
+        }
     }
 }

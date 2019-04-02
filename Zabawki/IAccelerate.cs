@@ -10,5 +10,6 @@ namespace Zabawki
     {
         int goFaster();
         int goSlower();
+        int getSpeed();
     }
 }

@@ -10,5 +10,7 @@ namespace Zabawki
     {
         int Deeper();
         int Higher();
+        int getDepth();
+        
     }
 }

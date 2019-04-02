@@ -28,11 +28,6 @@ namespace Zabawki
             return nameOf;
         }
 
-        public int getHeight()
-        {
-            return height;
-        }
-
 
         public int goHigher()
         {
@@ -48,6 +43,10 @@ namespace Zabawki
             }
             return height;
         }
-    
+
+        public int getHeight()
+        {
+            return height;
+        }
     }
 }

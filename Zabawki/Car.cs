@@ -28,13 +28,6 @@ namespace Zabawki
             return nameOf;
         }
 
-        public int getSpeed()
-        {
-            return acc;
-
-        }
-
-
         public int goFaster()
         {
             return acc+=5;
@@ -51,5 +44,10 @@ namespace Zabawki
             return acc;
         }
 
+        public int getSpeed()
+        {
+            return acc;
+
+        }
     }
 }

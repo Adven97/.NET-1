@@ -35,8 +35,8 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.speedBox = new System.Windows.Forms.GroupBox();
             this.depthBox = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.incrDepth = new System.Windows.Forms.Button();
+            this.decrDepth = new System.Windows.Forms.Button();
             this.accBox = new System.Windows.Forms.GroupBox();
             this.speedBx = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
@@ -87,8 +87,8 @@
             // speedBox
             // 
             this.speedBox.Controls.Add(this.depthBox);
-            this.speedBox.Controls.Add(this.button2);
-            this.speedBox.Controls.Add(this.button1);
+            this.speedBox.Controls.Add(this.incrDepth);
+            this.speedBox.Controls.Add(this.decrDepth);
             this.speedBox.Location = new System.Drawing.Point(459, 61);
             this.speedBox.Name = "speedBox";
             this.speedBox.Size = new System.Drawing.Size(323, 65);
@@ -106,25 +106,25 @@
             this.depthBox.TabIndex = 2;
             this.depthBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button2
+            // incrDepth
             // 
-            this.button2.Location = new System.Drawing.Point(220, 19);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(64, 31);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.incrDepth.Location = new System.Drawing.Point(220, 19);
+            this.incrDepth.Name = "incrDepth";
+            this.incrDepth.Size = new System.Drawing.Size(64, 31);
+            this.incrDepth.TabIndex = 1;
+            this.incrDepth.Text = "+";
+            this.incrDepth.UseVisualStyleBackColor = true;
+            this.incrDepth.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // decrDepth
             // 
-            this.button1.Location = new System.Drawing.Point(32, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(61, 31);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.decrDepth.Location = new System.Drawing.Point(32, 19);
+            this.decrDepth.Name = "decrDepth";
+            this.decrDepth.Size = new System.Drawing.Size(61, 31);
+            this.decrDepth.TabIndex = 0;
+            this.decrDepth.Text = "-";
+            this.decrDepth.UseVisualStyleBackColor = true;
+            this.decrDepth.Click += new System.EventHandler(this.button1_Click);
             // 
             // accBox
             // 
@@ -153,7 +153,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(64, 34);
             this.button6.TabIndex = 1;
-            this.button6.Text = "-";
+            this.button6.Text = "+";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -163,7 +163,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(61, 34);
             this.button5.TabIndex = 0;
-            this.button5.Text = "+";
+            this.button5.Text = "-";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -194,7 +194,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(64, 32);
             this.button4.TabIndex = 1;
-            this.button4.Text = "-";
+            this.button4.Text = "+";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -204,7 +204,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(61, 32);
             this.button3.TabIndex = 0;
-            this.button3.Text = "+";
+            this.button3.Text = "-";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -249,8 +249,8 @@
         private System.Windows.Forms.ListBox listOfAdded;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.GroupBox speedBox;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button incrDepth;
+        private System.Windows.Forms.Button decrDepth;
         private System.Windows.Forms.TextBox depthBox;
         private System.Windows.Forms.GroupBox accBox;
         private System.Windows.Forms.Button button6;

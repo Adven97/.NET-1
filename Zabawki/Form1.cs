@@ -26,27 +26,19 @@ namespace Zabawki
         /// / / / / submarine  -  panel
         private void button1_Click(object sender, EventArgs e)
         {
-            if (listOfAdded.Text == "")
-            {
-                return;
-            }
-            else
+            if (listOfAdded.SelectedItem is IDepth)
             {
                 Submarine sub = (Submarine)listOfAdded.SelectedItem;
-                depthBox.Text = sub.Deeper().ToString();
+                depthBox.Text = sub.Higher().ToString();
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (listOfAdded.Text == "")
-            {
-                return;
-            }
-            else
+            if (listOfAdded.SelectedItem is IDepth)
             {
                 Submarine sub = (Submarine)listOfAdded.SelectedItem;
-                depthBox.Text = sub.Higher().ToString();
+                depthBox.Text = sub.Deeper().ToString();
             }
 
         }
@@ -54,55 +46,39 @@ namespace Zabawki
         //  / /// // CAR - panel
         private void button5_Click(object sender, EventArgs e)
         {
-            if (listOfAdded.Text == "")
-            {
-                return;
-            }
-            else
+            if (listOfAdded.SelectedItem is IAccelerate)
             {
                 Car car = (Car)listOfAdded.SelectedItem;
-                speedBx.Text = car.goFaster().ToString();
+                speedBx.Text = car.goSlower().ToString();
             }
 
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (listOfAdded.Text == "")
-            {
-                return;
-            }
-            else
+            if (listOfAdded.SelectedItem is IAccelerate)
             {
                 Car car = (Car)listOfAdded.SelectedItem;
-                speedBx.Text = car.goSlower().ToString();
+                speedBx.Text = car.goFaster().ToString();
             }
         }
 
         /// Samoloty - panel
         private void button3_Click(object sender, EventArgs e)
         {
-            if (listOfAdded.Text == "")
-            {
-                return;
-            }
-            else
-            {
+            if (listOfAdded.SelectedItem is IHeight)
+            { 
                 Plane plane = (Plane)listOfAdded.SelectedItem;
-                heightBox.Text = plane.goHigher().ToString();
+                heightBox.Text = plane.goLower().ToString();
             }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (listOfAdded.Text == "")
-            {
-                return;
-            }
-            else
+            if (listOfAdded.SelectedItem is IHeight)
             {
                 Plane plane = (Plane)listOfAdded.SelectedItem;
-                heightBox.Text = plane.goLower().ToString();
+                heightBox.Text = plane.goHigher().ToString();
             }
         }
 
@@ -158,7 +134,7 @@ namespace Zabawki
 
             }
 
-            if (listOfAdded.SelectedItem as Car != null)
+            if (listOfAdded.SelectedItem is IAccelerate)
             {
                 speedBox.Enabled = false;
                 accBox.Enabled = true;
@@ -171,7 +147,7 @@ namespace Zabawki
                 speedBx.Text = car.getSpeed().ToString();
             }
 
-            if (listOfAdded.SelectedItem as Submarine != null)
+            if (listOfAdded.SelectedItem is IDepth)
             {
                 speedBox.Enabled = true;
                 accBox.Enabled = false;
@@ -185,7 +161,7 @@ namespace Zabawki
 
             }
 
-            if (listOfAdded.SelectedItem as Plane != null)
+            if (listOfAdded.SelectedItem is IHeight)
             {
                 speedBox.Enabled = false;
                 accBox.Enabled = false;
