@@ -6,40 +6,48 @@ using System.Threading.Tasks;
 
 namespace Zabawki
 {
-    class Car : ISpeed
+    public class Car : IAccelerate
     {
-        private string nameof;
-        static int id = 1;
+       
+        private int acc = 50;
+        private static int id = 1;
+        private string nameOf; 
 
-        private int speed;
-        Car(string _name)
+        public Car(string _name)
         {
-            nameof = _name+"#"+id;
+            nameOf = _name + "#" + id;
+            id++; 
+        }
+
+        public Car()
+        {
         }
 
         public override string ToString()
         {
-            return nameof;
+            return nameOf;
         }
 
-
-
-        public int increaseSpeed()
+        public int goFaster()
         {
-            throw new NotImplementedException();
+            return acc+=5;
+
         }
 
-        public int decreaseSpeed()
+        public int goSlower()
         {
-            throw new NotImplementedException();
+            acc-=5;
+            if (acc <= 0)
+            {
+                acc = 0;
+            }
+            return acc;
         }
 
         public int getSpeed()
         {
-            throw new NotImplementedException();
+            return acc;
 
-            return speed;
-            
         }
     }
 }

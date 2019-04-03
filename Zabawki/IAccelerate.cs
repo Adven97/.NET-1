@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Zabawki
 {
-    interface Interface1
+    interface IAccelerate
     {
+        int goFaster();
+        int goSlower();
+        int getSpeed();
     }
 }

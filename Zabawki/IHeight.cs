@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Zabawki
 {
-    interface Interface1
+    interface IHeight
     {
+        int goHigher();
+        int goLower();
+        int getHeight();
+        
     }
 }

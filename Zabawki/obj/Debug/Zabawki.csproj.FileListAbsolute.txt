@@ -1,5 +1,39 @@
-c:\users\dotnet-10\documents\visual studio 2015\Projects\Zabawki\Zabawki\bin\Debug\Zabawki.exe.config
-c:\users\dotnet-10\documents\visual studio 2015\Projects\Zabawki\Zabawki\obj\Debug\Zabawki.csprojResolveAssemblyReference.cache
-c:\users\dotnet-10\documents\visual studio 2015\Projects\Zabawki\Zabawki\obj\Debug\Zabawki.Form1.resources
-c:\users\dotnet-10\documents\visual studio 2015\Projects\Zabawki\Zabawki\obj\Debug\Zabawki.Properties.Resources.resources
-c:\users\dotnet-10\documents\visual studio 2015\Projects\Zabawki\Zabawki\obj\Debug\Zabawki.csproj.GenerateResource.Cache
+c:\users\dotnet-9\documents\visual studio 2015\Projects\Zabawki\Zabawki\bin\Debug\Zabawki.exe.config
+C:\Users\Michał\source\repos\Zabawki\Zabawki\bin\Debug\Zabawki.exe.config
+C:\Users\Michał\source\repos\Zabawki\Zabawki\bin\Debug\Zabawki.exe
+C:\Users\Michał\source\repos\Zabawki\Zabawki\bin\Debug\Zabawki.pdb
+C:\Users\Michał\source\repos\Zabawki\Zabawki\obj\Debug\Zabawki.csprojAssemblyReference.cache
+C:\Users\Michał\source\repos\Zabawki\Zabawki\obj\Debug\Zabawki.Form1.resources
+C:\Users\Michał\source\repos\Zabawki\Zabawki\obj\Debug\Zabawki.Properties.Resources.resources
+C:\Users\Michał\source\repos\Zabawki\Zabawki\obj\Debug\Zabawki.csproj.GenerateResource.cache
+C:\Users\Michał\source\repos\Zabawki\Zabawki\obj\Debug\Zabawki.csproj.CoreCompileInputs.cache
+C:\Users\Michał\source\repos\Zabawki\Zabawki\obj\Debug\Zabawki.exe
+C:\Users\Michał\source\repos\Zabawki\Zabawki\obj\Debug\Zabawki.pdb
+C:\Users\dotnet-10\Desktop\C# zad 1\Zabawki\bin\Debug\Zabawki.exe.config
+C:\Users\dotnet-10\Desktop\C# zad 1\Zabawki\obj\Debug\Zabawki.exe
+C:\Users\dotnet-10\Desktop\C# zad 1\Zabawki\obj\Debug\Zabawki.pdb
+C:\Users\dotnet-10\Desktop\C# zad 1\Zabawki\bin\Debug\Zabawki.exe
+C:\Users\dotnet-10\Desktop\C# zad 1\Zabawki\bin\Debug\Zabawki.pdb
+C:\Users\dotnet-10\Desktop\C# zad 1\Zabawki\obj\Debug\Zabawki.csprojResolveAssemblyReference.cache
+C:\Users\dotnet-10\Desktop\C# zad 1\Zabawki\obj\Debug\Zabawki.Form1.resources
+C:\Users\dotnet-10\Desktop\C# zad 1\Zabawki\obj\Debug\Zabawki.Properties.Resources.resources
+C:\Users\dotnet-10\Desktop\C# zad 1\Zabawki\obj\Debug\Zabawki.csproj.GenerateResource.Cache
+C:\Users\Adven97\Desktop\dotnet-wszystko\C# zad 1\Zabawki\obj\Debug\Zabawki.csprojAssemblyReference.cache
+C:\Users\Adven97\Desktop\dotnet-wszystko\C# zad 1\Zabawki\obj\Debug\Zabawki.Form1.resources
+C:\Users\Adven97\Desktop\dotnet-wszystko\C# zad 1\Zabawki\obj\Debug\Zabawki.Properties.Resources.resources
+C:\Users\Adven97\Desktop\dotnet-wszystko\C# zad 1\Zabawki\obj\Debug\Zabawki.csproj.GenerateResource.cache
+C:\Users\Adven97\Desktop\dotnet-wszystko\C# zad 1\Zabawki\obj\Debug\Zabawki.csproj.CoreCompileInputs.cache
+C:\Users\Adven97\Desktop\dotnet-wszystko\C# zad 1\Zabawki\obj\Debug\Zabawki.exe
+C:\Users\Adven97\Desktop\dotnet-wszystko\C# zad 1\Zabawki\obj\Debug\Zabawki.pdb
+C:\Users\Adven97\Desktop\dotnet-wszystko\C# zad 1\Zabawki\bin\Debug\Zabawki.exe.config
+C:\Users\Adven97\Desktop\dotnet-wszystko\C# zad 1\Zabawki\bin\Debug\Zabawki.exe
+C:\Users\Adven97\Desktop\dotnet-wszystko\C# zad 1\Zabawki\bin\Debug\Zabawki.pdb
+C:\Users\dotnet-10\Desktop\.NET-1-nowe-zrobione\Zabawki\bin\Debug\Zabawki.exe.config
+C:\Users\dotnet-10\Desktop\.NET-1-nowe-zrobione\Zabawki\obj\Debug\Zabawki.exe
+C:\Users\dotnet-10\Desktop\.NET-1-nowe-zrobione\Zabawki\obj\Debug\Zabawki.pdb
+C:\Users\dotnet-10\Desktop\.NET-1-nowe-zrobione\Zabawki\bin\Debug\Zabawki.exe
+C:\Users\dotnet-10\Desktop\.NET-1-nowe-zrobione\Zabawki\bin\Debug\Zabawki.pdb
+C:\Users\dotnet-10\Desktop\.NET-1-nowe-zrobione\Zabawki\obj\Debug\Zabawki.csprojResolveAssemblyReference.cache
+C:\Users\dotnet-10\Desktop\.NET-1-nowe-zrobione\Zabawki\obj\Debug\Zabawki.Form1.resources
+C:\Users\dotnet-10\Desktop\.NET-1-nowe-zrobione\Zabawki\obj\Debug\Zabawki.Properties.Resources.resources
+C:\Users\dotnet-10\Desktop\.NET-1-nowe-zrobione\Zabawki\obj\Debug\Zabawki.csproj.GenerateResource.Cache

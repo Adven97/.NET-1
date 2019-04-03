@@ -6,25 +6,70 @@ using System.Threading.Tasks;
 
 namespace Zabawki
 {
-    class Plane : Wings
+    public class Plane :  IHeight, IAccelerate
     {
 
+        private int acc = 400;
+        private int height = 1000;
+        private static int idP = 1;
+        private string nameOf;
 
-
-
-        public int decrease()
+        public Plane()
         {
-            throw new NotImplementedException();
         }
 
-        public int getWingspan()
+        public Plane(string _name)
         {
-            throw new NotImplementedException();
+            nameOf = _name + "#" + idP;
+            idP++;
         }
 
-        public int increase()
+        public override string ToString()
         {
-            throw new NotImplementedException();
+            return nameOf;
+        }
+
+
+        public int goHigher()
+        {
+           return height+=100;
+        }
+
+        public int goLower()
+        {
+            height-=100;
+            if (height <= 0)
+            {
+                height = 0;
+            }
+            return height;
+        }
+
+        public int getHeight()
+        {
+            return height;
+        }
+
+        public int goFaster()
+        {
+            return acc += 50;
+
+        }
+
+        public int goSlower()
+        {
+            acc -= 50;
+            if (acc <= 0)
+            {
+                acc = 0;
+            }
+            return acc;
+        }
+
+        public int getSpeed()
+        {
+            return acc;
+
         }
     }
 }
