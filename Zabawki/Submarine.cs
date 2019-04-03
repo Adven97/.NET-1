@@ -6,23 +6,68 @@ using System.Threading.Tasks;
 
 namespace Zabawki
 {
-    class Submarine : Depth
+    public class Submarine : IDepth, IAccelerate
     {
 
+        private int depth = 150;
+        private int acc = 100;
+        private static int idS = 1;
+        private string nameOf;
 
-        public int decreaseDepth()
+        public Submarine() { }
+
+        public Submarine(string _name)
         {
-            throw new NotImplementedException();
+            nameOf = _name + "#" + idS;
+            idS++;
+        }
+
+        public override string ToString()
+        {
+            return nameOf;
+        }
+
+        public int Deeper()
+        {
+            return depth += 10;
+        }
+
+        public int Higher()
+        {
+            depth -= 10;
+            if (depth <= 0)
+            {
+                depth = 0;
+            }
+
+            return depth;
         }
 
         public int getDepth()
         {
-            throw new NotImplementedException();
+            return depth;
         }
 
-        public int increaseDepth()
+        public int goFaster()
         {
-            throw new NotImplementedException();
+            return acc += 10;
+
+        }
+
+        public int goSlower()
+        {
+            acc -= 10;
+            if (acc <= 0)
+            {
+                acc = 0;
+            }
+            return acc;
+        }
+
+        public int getSpeed()
+        {
+            return acc;
+
         }
     }
 }

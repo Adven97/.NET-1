@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{90D4FF53-E948-4361-B2B7-C9B7BDA397B0}</ProjectGuid>
+    <ProjectGuid>{7D7E99D5-32D2-49C0-8EE2-9BAD46CC173F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Zabawki</RootNamespace>
@@ -54,11 +54,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IAccelerate.cs" />
+    <Compile Include="IHeight.cs" />
+    <Compile Include="IDepth.cs" />
     <Compile Include="Plane.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Submarine.cs" />
-    <Compile Include="Interface1.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
